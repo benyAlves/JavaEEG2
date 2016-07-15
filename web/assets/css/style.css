@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/geometry2.png);
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    opacity: 0.8;
+}
+.header p{
+    border-bottom: 2px solid #f90007;
+    max-width: 400px;
+    margin: 30px auto;
+    font-weight: 400;
+    color: #181818;
+}
+.box{
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 15px;
+}
+.box h3{
+    font-weight: 300;
+    font-size: 30px;
+    color: #f90007;
+}
+.box p{
+    font-size: 13px;
+    margin-top: 5px;
+}
+.form-item{
+    width: 100%;
+}
+.form-item input[type="text"]{
+    width: 85%;
+    text-align: center;
+    margin: 30px 0;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #444444;
+    box-shadow: none;
+    background-color: #FFFFFF;
+    border: 1px solid #989898;
+    border-radius: 4px;
+    padding: 6px 16px;
+}
+.form-item input[type="submit"]{
+    cursor: pointer;
+    border: 2px solid #FF3B30;
+    color: #FF3B30;
+    background-color: rgba(0,0,0,.0);
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 12px 50px;
+    opacity: 0.9;
+
+}
